@@ -472,27 +472,27 @@ GO
    27. VERIFICACION DE CANTIDAD DE REGISTROS
    ============================================================ */
 
-SELECT 'region' AS tabla, COUNT(*) AS cantidad FROM region
-UNION ALL
-SELECT 'ciudad', COUNT(*) FROM ciudad
-UNION ALL
-SELECT 'tipo_cliente', COUNT(*) FROM tipo_cliente
-UNION ALL
-SELECT 'cliente', COUNT(*) FROM cliente
-UNION ALL
-SELECT 'sucursal', COUNT(*) FROM sucursal
-UNION ALL
-SELECT 'categoria', COUNT(*) FROM categoria
-UNION ALL
-SELECT 'producto', COUNT(*) FROM producto
-UNION ALL
-SELECT 'venta', COUNT(*) FROM venta
-UNION ALL
-SELECT 'detalle_venta', COUNT(*) FROM detalle_venta
-UNION ALL
-SELECT 'stock', COUNT(*) FROM stock
-UNION ALL
-SELECT 'campania', COUNT(*) FROM campania
-UNION ALL
-SELECT 'campania_producto', COUNT(*) FROM campania_producto;
+SELECT * from region
+ 
+SELECT* FROM ciudad 
+ 
+SELECT * FROM tipo_cliente
+ 
+SELECT * FROM cliente
+ 
+SELECT* FROM sucursal
+ 
+SELECT * FROM categoria
+ 
+SELECT * FROM producto
+ 
+SELECT *FROM venta
+ 
+SELECT *FROM detalle_venta
+ 
+SELECT* FROM stock
+ 
+SELECT *FROM campania
+ 
+SELECT * FROM campania_producto;
 GO
